@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.Scanner;                        //Must import for user input
 public class Scanner_Class{
     
     public static void main(String[] args){
 
-        Scanner scan =new Scanner(System.in);
+        Scanner scan =new Scanner(System.in);    //creating object to access Scanner funtion
 
-        int age = scan.nextInt();       
+        int age = scan.nextInt();             //Storing user input in Variable.
         scan.nextLine();              // we use this new line statement before we get input for string only.
         String name =scan.nextLine();
         double height =scan.nextDouble();
